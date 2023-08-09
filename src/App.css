@@ -1,0 +1,44 @@
+.leaflet-container {
+  width: 100%;
+  height: 100vh;
+}
+.title{
+  position: absolute;
+  top: 0;
+  left: calc(50% - 200px);
+  width: 400px;
+  height: auto;
+  z-index: 9999;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(240, 248, 255, 0.8);
+  border-radius: 0px 0px 5px 5px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.title h1{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.title a{
+  text-decoration: none;
+  color: black;
+}
+.title .social{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 19px;
+}
+.title .social a{
+  transition: all 0.3s;
+}
+.title .social a:hover{
+  transform: scale(1.1);
+}
+.title *{
+  margin: 0px;
+}
